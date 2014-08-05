@@ -6,14 +6,14 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
-var users = require('./routes/users');
+//var users = require('./routes/users');
 
 /**
  *
  * Route imports
  */
 
-var signup=require('./routes/signup');
+//var signup=require('./routes/signup');
 
 var app = express();
 
@@ -35,14 +35,7 @@ if(app.get('env')==='development') {
     app.use(express.static(path.join(__dirname,'../client/.tmp')));
     app.use(express.static(path.join(__dirname,'../client/app')));
 
-    //Error handling
-    app.use(function(err,req,res,next) {
-        res.status(err.status || 500);
-        res.render('error', {
-            message: err.message,
-            error: {}
-        });
-    });
+
 }
 
 /*
@@ -51,19 +44,22 @@ if(app.get('env')==='development') {
 
 if (app.get('env')=== 'production') {
     app.use(express.static(path.join(__dirname,'/dist')));
-    app.use(function(err,req,res,next) {
-        res.status(err.status || 500);
-        res.render('error', {
-            message: err.message,
-            error: {}
-        });
-    });
+
 }
 
 /**
  * Routes
  */
 
-app.use('/signup',signup);
+var router=require('./router') (app);
+
+    //Error handling
+app.use(function(err,req,res,next) {
+    res.status(err.status || 500);
+    res.render('error', {
+        message: err.message,
+        error: {}
+    });
+});
 
 module.exports = app;
