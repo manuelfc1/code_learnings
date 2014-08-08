@@ -1,0 +1,481 @@
+2014-08-06T08:57:18.843+0200 Trying to start Windows service 'MongoDB'
+2014-08-06T08:57:18.843+0200 Service running
+2014-08-06T08:57:18.843+0200 [initandlisten] MongoDB starting : pid=2008 port=27017 dbpath=c:\workspace\code_learnings\data\db 64-bit host=MAKA-PC
+2014-08-06T08:57:18.890+0200 [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2014-08-06T08:57:18.890+0200 [initandlisten] db version v2.6.3
+2014-08-06T08:57:18.937+0200 [initandlisten] git version: 255f67a66f9603c59380b2a389e386910bbb52cb
+2014-08-06T08:57:18.937+0200 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2014-08-06T08:57:18.937+0200 [initandlisten] allocator: system
+2014-08-06T08:57:18.937+0200 [initandlisten] options: { config: "C:\MongoDB\mongod.cfg", service: true, storage: { dbPath: "c:\workspace\code_learnings\data\db" }, systemLog: { destination: "file", path: "c:\workspace\code_learnings\data\logs\mongod.log" } }
+2014-08-06T08:57:19.451+0200 [initandlisten] journal dir=c:\workspace\code_learnings\data\db\journal
+2014-08-06T08:57:19.451+0200 [initandlisten] recover : no journal files present, no recovery needed
+2014-08-06T08:57:33.928+0200 [initandlisten] command local.$cmd command: create { create: "startup_log", size: 10485760, capped: true } ntoreturn:1 keyUpdates:0 numYields:0  reslen:75 107ms
+2014-08-06T08:57:33.959+0200 [initandlisten] waiting for connections on port 27017
+2014-08-06T08:58:23.380+0200 [clientcursormon] mem (MB) res:39 virt:289
+2014-08-06T08:58:23.380+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T08:58:23.380+0200 [clientcursormon]  connections:0
+2014-08-06T09:03:24.071+0200 [clientcursormon] mem (MB) res:39 virt:287
+2014-08-06T09:03:24.071+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T09:03:24.071+0200 [clientcursormon]  connections:0
+2014-08-06T09:08:24.761+0200 [clientcursormon] mem (MB) res:39 virt:287
+2014-08-06T09:08:24.761+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T09:08:24.761+0200 [clientcursormon]  connections:0
+2014-08-06T09:13:25.452+0200 [clientcursormon] mem (MB) res:39 virt:287
+2014-08-06T09:13:25.452+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T09:13:25.452+0200 [clientcursormon]  connections:0
+2014-08-06T09:18:26.142+0200 [clientcursormon] mem (MB) res:39 virt:287
+2014-08-06T09:18:26.142+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T09:18:26.142+0200 [clientcursormon]  connections:0
+2014-08-06T09:23:26.833+0200 [clientcursormon] mem (MB) res:39 virt:287
+2014-08-06T09:23:26.833+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T09:23:26.833+0200 [clientcursormon]  connections:0
+2014-08-06T09:28:27.524+0200 [clientcursormon] mem (MB) res:39 virt:287
+2014-08-06T09:28:27.524+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T09:28:27.524+0200 [clientcursormon]  connections:0
+2014-08-06T09:33:28.207+0200 [clientcursormon] mem (MB) res:39 virt:287
+2014-08-06T09:33:28.207+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T09:33:28.207+0200 [clientcursormon]  connections:0
+2014-08-06T09:38:28.248+0200 [clientcursormon] mem (MB) res:39 virt:287
+2014-08-06T09:38:28.248+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T09:38:28.248+0200 [clientcursormon]  connections:0
+2014-08-06T09:43:28.265+0200 [clientcursormon] mem (MB) res:39 virt:287
+2014-08-06T09:43:28.265+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T09:43:28.265+0200 [clientcursormon]  connections:0
+2014-08-06T09:48:28.282+0200 [clientcursormon] mem (MB) res:39 virt:287
+2014-08-06T09:48:28.282+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T09:48:28.282+0200 [clientcursormon]  connections:0
+2014-08-06T09:53:28.299+0200 [clientcursormon] mem (MB) res:39 virt:287
+2014-08-06T09:53:28.299+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T09:53:28.299+0200 [clientcursormon]  connections:0
+2014-08-06T09:58:28.316+0200 [clientcursormon] mem (MB) res:39 virt:287
+2014-08-06T09:58:28.316+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T09:58:28.316+0200 [clientcursormon]  connections:0
+2014-08-06T10:03:28.334+0200 [clientcursormon] mem (MB) res:39 virt:287
+2014-08-06T10:03:28.334+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T10:03:28.334+0200 [clientcursormon]  connections:0
+2014-08-06T10:08:28.351+0200 [clientcursormon] mem (MB) res:39 virt:287
+2014-08-06T10:08:28.351+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T10:08:28.351+0200 [clientcursormon]  connections:0
+2014-08-06T10:13:28.368+0200 [clientcursormon] mem (MB) res:39 virt:287
+2014-08-06T10:13:28.368+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T10:13:28.368+0200 [clientcursormon]  connections:0
+2014-08-06T10:18:28.385+0200 [clientcursormon] mem (MB) res:39 virt:287
+2014-08-06T10:18:28.385+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T10:18:28.385+0200 [clientcursormon]  connections:0
+2014-08-06T10:23:28.402+0200 [clientcursormon] mem (MB) res:39 virt:287
+2014-08-06T10:23:28.402+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T10:23:28.402+0200 [clientcursormon]  connections:0
+2014-08-06T10:28:28.419+0200 [clientcursormon] mem (MB) res:39 virt:287
+2014-08-06T10:28:28.419+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T10:28:28.419+0200 [clientcursormon]  connections:0
+2014-08-06T10:33:28.436+0200 [clientcursormon] mem (MB) res:39 virt:287
+2014-08-06T10:33:28.436+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T10:33:28.436+0200 [clientcursormon]  connections:0
+2014-08-06T10:38:28.454+0200 [clientcursormon] mem (MB) res:39 virt:287
+2014-08-06T10:38:28.454+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T10:38:28.454+0200 [clientcursormon]  connections:0
+2014-08-06T10:43:28.471+0200 [clientcursormon] mem (MB) res:39 virt:287
+2014-08-06T10:43:28.471+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T10:43:28.471+0200 [clientcursormon]  connections:0
+2014-08-06T10:48:28.547+0200 [clientcursormon] mem (MB) res:39 virt:287
+2014-08-06T10:48:28.547+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T10:48:28.547+0200 [clientcursormon]  connections:0
+2014-08-06T10:53:28.800+0200 [clientcursormon] mem (MB) res:39 virt:287
+2014-08-06T10:53:28.800+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T10:53:28.800+0200 [clientcursormon]  connections:0
+2014-08-06T10:58:28.828+0200 [clientcursormon] mem (MB) res:20 virt:287
+2014-08-06T10:58:28.828+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T10:58:28.828+0200 [clientcursormon]  connections:0
+2014-08-06T11:03:28.845+0200 [clientcursormon] mem (MB) res:20 virt:287
+2014-08-06T11:03:28.845+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T11:03:28.845+0200 [clientcursormon]  connections:0
+2014-08-06T11:08:28.861+0200 [clientcursormon] mem (MB) res:21 virt:287
+2014-08-06T11:08:28.861+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T11:08:28.861+0200 [clientcursormon]  connections:0
+2014-08-06T11:13:28.877+0200 [clientcursormon] mem (MB) res:21 virt:287
+2014-08-06T11:13:28.877+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T11:13:28.877+0200 [clientcursormon]  connections:0
+2014-08-06T11:18:28.894+0200 [clientcursormon] mem (MB) res:21 virt:287
+2014-08-06T11:18:28.894+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T11:18:28.894+0200 [clientcursormon]  connections:0
+2014-08-06T11:23:28.912+0200 [clientcursormon] mem (MB) res:21 virt:287
+2014-08-06T11:23:28.912+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T11:23:28.912+0200 [clientcursormon]  connections:0
+2014-08-06T11:28:28.929+0200 [clientcursormon] mem (MB) res:21 virt:287
+2014-08-06T11:28:28.929+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T11:28:28.929+0200 [clientcursormon]  connections:0
+2014-08-06T11:33:28.946+0200 [clientcursormon] mem (MB) res:21 virt:287
+2014-08-06T11:33:28.946+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T11:33:28.946+0200 [clientcursormon]  connections:0
+2014-08-06T11:38:28.963+0200 [clientcursormon] mem (MB) res:21 virt:287
+2014-08-06T11:38:28.963+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T11:38:28.963+0200 [clientcursormon]  connections:0
+2014-08-06T11:43:28.980+0200 [clientcursormon] mem (MB) res:21 virt:287
+2014-08-06T11:43:28.980+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T11:43:28.980+0200 [clientcursormon]  connections:0
+2014-08-06T11:48:28.997+0200 [clientcursormon] mem (MB) res:21 virt:287
+2014-08-06T11:48:28.997+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T11:48:28.997+0200 [clientcursormon]  connections:0
+2014-08-06T11:53:29.015+0200 [clientcursormon] mem (MB) res:21 virt:287
+2014-08-06T11:53:29.015+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T11:53:29.015+0200 [clientcursormon]  connections:0
+2014-08-06T12:00:05.932+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T12:00:05.932+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T12:00:05.932+0200 [clientcursormon]  connections:0
+2014-08-06T12:05:05.949+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T12:05:05.949+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T12:05:05.949+0200 [clientcursormon]  connections:0
+2014-08-06T12:10:05.966+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T12:10:05.966+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T12:10:05.966+0200 [clientcursormon]  connections:0
+2014-08-06T12:15:05.983+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T12:15:05.983+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T12:15:05.983+0200 [clientcursormon]  connections:0
+2014-08-06T12:20:06.000+0200 [clientcursormon] mem (MB) res:0 virt:287
+2014-08-06T12:20:06.000+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T12:20:06.000+0200 [clientcursormon]  connections:0
+2014-08-06T13:03:19.131+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T13:03:19.131+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T13:03:19.131+0200 [clientcursormon]  connections:0
+2014-08-06T13:08:19.148+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T13:08:19.148+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T13:08:19.148+0200 [clientcursormon]  connections:0
+2014-08-06T13:13:19.165+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T13:13:19.165+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T13:13:19.165+0200 [clientcursormon]  connections:0
+2014-08-06T13:18:19.182+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T13:18:19.195+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T13:18:19.195+0200 [clientcursormon]  connections:0
+2014-08-06T13:23:19.212+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T13:23:19.212+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T13:23:19.212+0200 [clientcursormon]  connections:0
+2014-08-06T18:36:04.760+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T18:36:04.760+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T18:36:04.760+0200 [clientcursormon]  connections:0
+2014-08-06T18:41:04.777+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T18:41:04.777+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T18:41:04.777+0200 [clientcursormon]  connections:0
+2014-08-06T18:46:04.794+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T18:46:04.794+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T18:46:04.794+0200 [clientcursormon]  connections:0
+2014-08-06T18:51:04.812+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T18:51:04.812+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T18:51:04.812+0200 [clientcursormon]  connections:0
+2014-08-06T18:56:04.829+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T18:56:04.829+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T18:56:04.829+0200 [clientcursormon]  connections:0
+2014-08-06T19:01:04.846+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T19:01:04.846+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T19:01:04.846+0200 [clientcursormon]  connections:0
+2014-08-06T19:06:04.863+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T19:06:04.877+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T19:06:04.877+0200 [clientcursormon]  connections:0
+2014-08-06T19:11:04.894+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T19:11:04.894+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T19:11:04.894+0200 [clientcursormon]  connections:0
+2014-08-06T19:16:04.911+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T19:16:04.911+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T19:16:04.911+0200 [clientcursormon]  connections:0
+2014-08-06T19:21:04.929+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T19:21:04.929+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T19:21:04.929+0200 [clientcursormon]  connections:0
+2014-08-06T19:26:04.952+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T19:26:04.952+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T19:26:04.952+0200 [clientcursormon]  connections:0
+2014-08-06T19:31:04.969+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T19:31:04.969+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T19:31:04.985+0200 [clientcursormon]  connections:0
+2014-08-06T19:36:05.002+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T19:36:05.002+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T19:36:05.002+0200 [clientcursormon]  connections:0
+2014-08-06T19:41:05.019+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T19:41:05.019+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T19:41:05.019+0200 [clientcursormon]  connections:0
+2014-08-06T19:46:05.036+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T19:46:05.036+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T19:46:05.036+0200 [clientcursormon]  connections:0
+2014-08-06T19:51:05.054+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T19:51:05.054+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T19:51:05.054+0200 [clientcursormon]  connections:0
+2014-08-06T19:56:31.509+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T19:56:31.509+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T19:56:31.509+0200 [clientcursormon]  connections:0
+2014-08-06T20:01:31.537+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T20:01:31.537+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T20:01:31.537+0200 [clientcursormon]  connections:0
+2014-08-06T20:06:31.554+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T20:06:31.554+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T20:06:31.554+0200 [clientcursormon]  connections:0
+2014-08-06T20:11:31.571+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T20:11:31.571+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T20:11:31.583+0200 [clientcursormon]  connections:0
+2014-08-06T20:16:31.601+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T20:16:31.601+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T20:16:31.601+0200 [clientcursormon]  connections:0
+2014-08-06T20:21:31.621+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T20:21:31.621+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T20:21:31.621+0200 [clientcursormon]  connections:0
+2014-08-06T20:26:31.638+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T20:26:31.646+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T20:26:31.647+0200 [clientcursormon]  connections:0
+2014-08-06T20:31:31.664+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T20:31:31.664+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T20:31:31.664+0200 [clientcursormon]  connections:0
+2014-08-06T20:36:31.681+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T20:36:31.681+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T20:36:31.681+0200 [clientcursormon]  connections:0
+2014-08-06T20:41:31.708+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T20:41:31.708+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T20:41:31.708+0200 [clientcursormon]  connections:0
+2014-08-06T20:46:31.726+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T20:46:31.726+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T20:46:31.726+0200 [clientcursormon]  connections:0
+2014-08-06T20:51:31.743+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T20:51:31.743+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T20:51:31.755+0200 [clientcursormon]  connections:0
+2014-08-06T20:56:31.772+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T20:56:31.772+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T20:56:31.772+0200 [clientcursormon]  connections:0
+2014-08-06T21:01:31.789+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T21:01:31.789+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T21:01:31.789+0200 [clientcursormon]  connections:0
+2014-08-06T21:06:31.806+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T21:06:31.817+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T21:06:31.817+0200 [clientcursormon]  connections:0
+2014-08-06T21:11:31.834+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T21:11:31.834+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T21:11:31.834+0200 [clientcursormon]  connections:0
+2014-08-06T21:16:31.852+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T21:16:31.852+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T21:16:31.852+0200 [clientcursormon]  connections:0
+2014-08-06T21:21:31.880+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-06T21:21:31.880+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-06T21:21:31.880+0200 [clientcursormon]  connections:0
+2014-08-07T08:26:04.001+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T08:26:04.001+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T08:26:04.001+0200 [clientcursormon]  connections:0
+2014-08-07T08:31:04.018+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T08:31:04.018+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T08:31:04.035+0200 [clientcursormon]  connections:0
+2014-08-07T10:23:40.192+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T10:23:40.192+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T10:23:40.192+0200 [clientcursormon]  connections:0
+2014-08-07T10:28:40.210+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T10:28:40.210+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T10:28:40.210+0200 [clientcursormon]  connections:0
+2014-08-07T10:33:40.227+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T10:33:40.245+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T10:33:40.245+0200 [clientcursormon]  connections:0
+2014-08-07T10:38:40.262+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T10:38:40.262+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T10:38:40.262+0200 [clientcursormon]  connections:0
+2014-08-07T10:43:40.279+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T10:43:40.279+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T10:43:40.279+0200 [clientcursormon]  connections:0
+2014-08-07T10:48:40.307+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T10:48:40.307+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T10:48:40.307+0200 [clientcursormon]  connections:0
+2014-08-07T10:53:40.324+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T10:53:40.324+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T10:53:40.324+0200 [clientcursormon]  connections:0
+2014-08-07T10:58:40.343+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T10:58:40.343+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T10:58:40.343+0200 [clientcursormon]  connections:0
+2014-08-07T11:03:40.360+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T11:03:40.360+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T11:03:40.360+0200 [clientcursormon]  connections:0
+2014-08-07T11:08:40.377+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T11:08:40.377+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T11:08:40.377+0200 [clientcursormon]  connections:0
+2014-08-07T11:13:40.394+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T11:13:40.408+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T11:13:40.408+0200 [clientcursormon]  connections:0
+2014-08-07T11:18:40.425+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T11:18:40.425+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T11:18:40.425+0200 [clientcursormon]  connections:0
+2014-08-07T11:23:40.442+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T11:23:40.442+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T11:23:40.442+0200 [clientcursormon]  connections:0
+2014-08-07T11:28:40.471+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T11:28:40.471+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T11:28:40.471+0200 [clientcursormon]  connections:0
+2014-08-07T11:33:40.488+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T11:33:40.488+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T11:33:40.488+0200 [clientcursormon]  connections:0
+2014-08-07T11:38:40.505+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T11:38:40.505+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T11:38:40.525+0200 [clientcursormon]  connections:0
+2014-08-07T11:43:40.542+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T11:43:40.542+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T11:43:40.542+0200 [clientcursormon]  connections:0
+2014-08-07T11:48:40.559+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T11:48:40.559+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T11:48:40.559+0200 [clientcursormon]  connections:0
+2014-08-07T11:53:40.576+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T11:53:40.595+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T11:53:40.595+0200 [clientcursormon]  connections:0
+2014-08-07T11:58:40.613+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T11:58:40.613+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T11:58:40.613+0200 [clientcursormon]  connections:0
+2014-08-07T12:03:40.630+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T12:03:40.630+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T12:03:40.630+0200 [clientcursormon]  connections:0
+2014-08-07T12:08:40.647+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T12:08:40.647+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T12:08:40.647+0200 [clientcursormon]  connections:0
+2014-08-07T12:13:40.664+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T12:13:40.664+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T12:13:40.664+0200 [clientcursormon]  connections:0
+2014-08-07T12:18:40.681+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T12:18:40.681+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T12:18:40.745+0200 [clientcursormon]  connections:0
+2014-08-07T12:23:40.762+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T12:23:40.762+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T12:23:40.762+0200 [clientcursormon]  connections:0
+2014-08-07T12:28:40.779+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T12:28:40.779+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T12:28:40.779+0200 [clientcursormon]  connections:0
+2014-08-07T12:33:40.797+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T12:33:40.797+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T12:33:40.797+0200 [clientcursormon]  connections:0
+2014-08-07T12:38:40.814+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T12:38:40.814+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T12:38:40.814+0200 [clientcursormon]  connections:0
+2014-08-07T12:43:40.831+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T12:43:40.831+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T12:43:40.831+0200 [clientcursormon]  connections:0
+2014-08-07T12:48:40.848+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T12:48:40.848+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T12:48:40.848+0200 [clientcursormon]  connections:0
+2014-08-07T12:53:40.865+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T12:53:40.865+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T12:53:40.865+0200 [clientcursormon]  connections:0
+2014-08-07T12:58:40.882+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T12:58:40.882+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T12:58:40.891+0200 [clientcursormon]  connections:0
+2014-08-07T13:03:40.909+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T13:03:40.909+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T13:03:40.909+0200 [clientcursormon]  connections:0
+2014-08-07T13:08:40.926+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T13:08:40.926+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T13:08:40.926+0200 [clientcursormon]  connections:0
+2014-08-07T13:13:40.943+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T13:13:40.943+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T13:13:40.943+0200 [clientcursormon]  connections:0
+2014-08-07T13:18:41.311+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T13:18:41.311+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T13:18:41.311+0200 [clientcursormon]  connections:0
+2014-08-07T13:23:41.328+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T13:23:41.328+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T13:23:41.328+0200 [clientcursormon]  connections:0
+2014-08-07T13:28:41.365+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T13:28:41.365+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T13:28:41.365+0200 [clientcursormon]  connections:0
+2014-08-07T13:33:41.383+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T13:33:41.383+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T13:33:41.383+0200 [clientcursormon]  connections:0
+2014-08-07T13:38:41.400+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T13:38:41.400+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T13:38:41.445+0200 [clientcursormon]  connections:0
+2014-08-07T13:43:41.462+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T13:43:41.462+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T13:43:41.462+0200 [clientcursormon]  connections:0
+2014-08-07T13:48:41.479+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T13:48:41.479+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T13:48:41.479+0200 [clientcursormon]  connections:0
+2014-08-07T13:53:41.496+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T13:53:41.496+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T13:53:41.496+0200 [clientcursormon]  connections:0
+2014-08-07T13:58:41.513+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T13:58:41.513+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T13:58:41.513+0200 [clientcursormon]  connections:0
+2014-08-07T14:03:41.531+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T14:03:41.531+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T14:03:41.531+0200 [clientcursormon]  connections:0
+2014-08-07T14:08:41.578+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T14:08:41.578+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T14:08:41.578+0200 [clientcursormon]  connections:0
+2014-08-07T14:13:41.595+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T14:13:41.595+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T14:13:41.595+0200 [clientcursormon]  connections:0
+2014-08-07T14:18:41.612+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T14:18:41.612+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T14:18:41.632+0200 [clientcursormon]  connections:0
+2014-08-07T14:23:41.649+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T14:23:41.649+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T14:23:41.649+0200 [clientcursormon]  connections:0
+2014-08-07T14:28:41.666+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T14:28:41.666+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T14:28:41.666+0200 [clientcursormon]  connections:0
+2014-08-07T14:33:41.684+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T14:33:41.684+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T14:33:41.684+0200 [clientcursormon]  connections:0
+2014-08-07T14:38:41.701+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T14:38:41.701+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T14:38:41.701+0200 [clientcursormon]  connections:0
+2014-08-07T14:43:41.718+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T14:43:41.718+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T14:43:41.718+0200 [clientcursormon]  connections:0
+2014-08-07T14:48:41.735+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T14:48:41.735+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T14:48:41.735+0200 [clientcursormon]  connections:0
+2014-08-07T14:53:41.752+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T14:53:41.752+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T14:53:41.752+0200 [clientcursormon]  connections:0
+2014-08-07T14:58:41.769+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T14:58:41.769+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T14:58:41.785+0200 [clientcursormon]  connections:0
+2014-08-07T15:03:41.802+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T15:03:41.802+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T15:03:41.802+0200 [clientcursormon]  connections:0
+2014-08-07T15:08:41.820+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T15:08:41.820+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T15:08:41.820+0200 [clientcursormon]  connections:0
+2014-08-07T15:13:41.837+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T15:13:41.837+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T15:13:41.837+0200 [clientcursormon]  connections:0
+2014-08-07T15:18:41.854+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T15:18:41.854+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T15:18:41.854+0200 [clientcursormon]  connections:0
+2014-08-07T15:23:41.871+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T15:23:41.871+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T15:23:41.871+0200 [clientcursormon]  connections:0
+2014-08-07T15:28:41.888+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T15:28:41.888+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T15:28:41.888+0200 [clientcursormon]  connections:0
+2014-08-07T17:07:02.787+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T17:07:02.787+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T17:07:02.787+0200 [clientcursormon]  connections:0
+2014-08-07T17:12:02.804+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T17:12:02.804+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T17:12:02.825+0200 [clientcursormon]  connections:0
+2014-08-07T17:17:02.842+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T17:17:02.842+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T17:17:02.842+0200 [clientcursormon]  connections:0
+2014-08-07T17:22:02.859+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T17:22:02.859+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T17:22:02.859+0200 [clientcursormon]  connections:0
+2014-08-07T17:27:02.876+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T17:27:02.896+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T17:27:02.896+0200 [clientcursormon]  connections:0
+2014-08-07T17:32:02.913+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T17:32:02.913+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T17:32:02.913+0200 [clientcursormon]  connections:0
+2014-08-07T17:37:02.931+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T17:37:02.931+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T17:37:02.931+0200 [clientcursormon]  connections:0
+2014-08-07T17:42:02.948+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T17:42:02.948+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T17:42:02.948+0200 [clientcursormon]  connections:0
+2014-08-07T17:47:02.965+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T17:47:02.965+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T17:47:02.965+0200 [clientcursormon]  connections:0
+2014-08-07T17:52:02.982+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T17:52:02.982+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T17:52:03.004+0200 [clientcursormon]  connections:0
+2014-08-07T17:57:03.021+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T17:57:03.021+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T17:57:03.021+0200 [clientcursormon]  connections:0
+2014-08-07T18:02:03.038+0200 [clientcursormon] mem (MB) res:2 virt:287
+2014-08-07T18:02:03.038+0200 [clientcursormon]  mapped (incl journal view):160
+2014-08-07T18:02:03.038+0200 [clientcursormon]  connections:0
